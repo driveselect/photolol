@@ -1,6 +1,6 @@
 from time import sleep, time
 from SimpleCV import Camera, Image, Display
-import os, sys, 
+import os, sys
 myCamera = Camera(prop_set={'width': 320, 'height': 240})
 md = Display(resolution=(320, 240))
 stache = Image("mustache.png")
